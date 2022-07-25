@@ -17,9 +17,9 @@ fi
 # The link can be any relevant link (eg to a bug tracker) or / if not needed
 
 # Replace these with your target URLs - these example ones will fail!
-./mass-basewrapper.sh $repo.wiki www.fail.example.com / https://www.example.com
-./mass-basewrapper.sh $repo.wiki www.pass.example.com / https://www.example.com
-./mass-basewrapper.sh $repo.wiki www.warn.example.com / https://www.example.com
+./mass-basewrapper.sh $repo.wiki https://niveussolutions.com
+./mass-basewrapper.sh $repo.wiki https://flipkart.com
+#./mass-basewrapper.sh $repo.wiki www.warn.example.com / https://www.example.com
 
 ./mass-basescore.py $repo.wiki
 
