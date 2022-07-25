@@ -9,13 +9,13 @@ pipeline {
 	    }
 	    stage('Dockerfile') {
 		    steps {
-			    sh 'docker build -t fazilniveus/mass-baseline -f docker-wrapper .'
+			    sh 'sudo docker build -t fazilniveus/mass-baseline -f docker-wrapper .'
 		    }
 	    }
 			    
 	    stage('Scanning') {
 		    steps {
-			    sh 'docker run -u zap -i -t your-user/mass-baseline mass-baseline.sh'
+			    sh 'sudo docker run -u zap -i -t your-user/mass-baseline mass-baseline.sh'
 		    }
 	    }
     }
