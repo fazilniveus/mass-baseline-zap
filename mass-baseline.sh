@@ -1,9 +1,9 @@
 #!/bin/bash
 # Change these for your environment
-git config --global user.email "youremail@example.com"
-git config --global user.name "Your name"
-user="YourUser"
-repo="YourRepo"
+git config --global user.email "mohammad_fazil@niveussolutions.com"
+git config --global user.name "fazilniveus"
+user="fazilniveus"
+repo="https://github.com/fazilniveus/mass-baseline-zap.git"
 
 # You will also need to set the $baselinecreds envvar if you want to write to your repo's wiki 
 
