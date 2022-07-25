@@ -9,7 +9,7 @@ pipeline {
 	    }
 	    stage('Dockerfile') {
 		    steps {
-			    sh 'sudo docker build -S fazilniveus/mass-baseline -f docker-wrapper .'
+			    sh 'sudo docker build -t fazilniveus/mass-baseline -S docker-wrapper .'
 		    }
 	    }
 			    
